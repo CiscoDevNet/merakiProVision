@@ -24,14 +24,14 @@ STEP = 0
 RESPONSE = ""
 
 # Configuration parameters and credentials for MERAKI
-x_cisco_meraki_api_key = 'dc4f4ae03d125032313568a55ca22eaeaf078ff6'
+x_cisco_meraki_api_key = 'MERAKI API KEY'
 
 client = Meraki(x_cisco_meraki_api_key)
 
 # Configuration and parametes for WEBEX TEAMS
-access_token="NmFiOGIzZmYtMzQ3NS00ZGI1LWE2NDYtMjlkYzQxNmIwNzI0MTcxNDdlNmItYTM1_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f"
+access_token="WEBEX TEAMS BOT ACCESS TOKEN"
 teamsapi = WebexTeamsAPI(access_token=access_token)
-botid = "Y2lzY29zcGFyazovL3VzL1BFT1BMRS82NTc2NDZlMi1jYjI4LTRiYzEtYWViNi1hYjY3OGYxZTM1NmU"
+botid = "BOT ID->get this from the /me call using the bots access token...the id generated when creating the bot is NOT the right id"
 ROOM_ID = ""
 
 app = Flask(__name__)
