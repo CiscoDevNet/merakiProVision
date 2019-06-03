@@ -5,7 +5,7 @@ merakiProVision is a Python based WebEx Teams bot that can provision Meraki netw
 ## Caveats
 This is a single-threaded Flask application for demo/sample-code purposes.  Running this as-is locally and using a reverse-proxy tool like [ngrok](https://ngrok.com) will only allow for a single bot interaction at a time and multiple interactions at one time could result in confusing results.
 
-When sending pictures, for best results make sure they are right side up and the serial number of the Meraki
+When sending pictures, for best results make sure they are right side up and the serial number of the Meraki device is clear.
 
 ## Requirements:
 
